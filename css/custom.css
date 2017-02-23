@@ -1,0 +1,206 @@
+.logo{
+  color: white;
+  text-decoration: none;
+}
+
+.add-to-slack-button{
+  background-repeat: no-repeat;
+  transition: all ease 0.3s;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.3);
+}
+
+.add-to-slack-button:hover{
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+  transform: translateY(-3px);
+  background-color: rgba(255, 62, 95, 1);
+  color:white;
+  border-color: rgba(255, 62, 95, 1);
+}
+
+.hero{
+  padding-top: 100px;
+  background-image: url('../img/geometric-bg-2.svg');
+  background-size: 80%;
+}
+
+.footer{
+  background-image: url('../img/geometric-bg-2.svg');
+  background-size: 100%;
+}
+
+.add-to-slack-button .button-text{
+  height: 40px;
+  top: -15px;
+}
+
+.add-to-slack-button .slack-logo{
+   margin-left: -15px;
+}
+
+.add-to-slack-button .slack-logo *{
+  fill: #1ef898 !important;
+  color: #1ef898 !important;
+  border-color: #1ef898;
+}
+
+.add-to-slack-button .slack-logo,
+.add-to-slack-button .button-text
+{
+  position: relative;
+  display: inline-block;
+}
+
+.slack-command{
+  background-color: #f8f8f8;
+  color: #cc0000;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.faqs{
+  padding: 50px 0;
+}
+
+.faqs-list{
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 100;
+  color: rgba(0,0,0,.5);
+  list-style-type: none;
+}
+
+.faqs-list li{
+  margin: 5px;
+}
+
+
+.feature2{
+  text-align: center;
+}
+
+.emoji-icon{
+  /*outline: 1px solid red;*/
+  position: absolute;
+  font-size: 3em;
+}
+
+.emoji-icon.joy{
+  top: -45px;
+  left: 320px;
+}
+
+.emoji-icon.shrine{
+  top: 130px;
+  left: -10px;
+  font-size: 2em;
+}
+
+.emoji-icon.taco{
+  top: 50px;
+  left: 370px;
+  font-size: 2.3em;
+}
+
+.emoji-icon.robot{
+  top: 100px;
+  left: 320px;
+  font-size: 2em;
+}
+
+.emoji-icon.rock{
+  top: -10px;
+  left: -20px;
+}
+
+.emoji-icon.rocket{
+  top: 80px;
+  left: -50px;
+  font-size: 2.5em;
+}
+
+.emoji-icon.star{
+  font-size: 1.5em;
+  top: 200px;
+  left: 250px;
+}
+
+.emoji-icon.pizza{
+  top: 200px;
+  left: 75px;
+  font-size: 2.6em;
+}
+
+.emoji-icon.confetti{
+  top: -20px;
+  left: 230px;
+  font-size: 2.1em;
+}
+
+.emoji-icon.doge{
+  top: 185px;
+  left: 300px;
+}
+
+#faq{
+  /*background-image: url('../img/geometric-bg-2.svg');
+  background-size: 100%;*/
+  position: relative;
+}
+
+#faq::after {
+  content: "";
+  background: url('../img/geometric-bg-2.svg');
+  background-size: 100%;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.author-link{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.full-height{
+  height: 100%;
+}
+
+ul.share-buttons{
+
+  list-style: none;
+  padding: 10px;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons li a{
+  color: white;
+  margin: 5px;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.please-share{
+  margin-top: 20px;
+  color: white !important;
+}
