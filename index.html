@@ -65,9 +65,12 @@
             <span>M</span><img src="img/moji_face.png" width="20" /><span>ji</span>
           </a>
         </div>
-        <div>
+        <div id="header-menu">
           <a class="nav-link" href="#faq">
             FAQ
+          </a>
+          <a class="nav-link" id="whats-new">
+            What's new 
           </a>
           <a class="nav-link" target="_blank" href="mailto:hello@mojibot.chat">
             Contact
@@ -328,7 +331,16 @@
     var parallax = new Parallax(scene);
   </script>
   <script src="https://embed.small.chat/T35PBV4F2G5W29DUFQ.js" async></script>
+  <script>
+    // @see https://docs.headwayapp.co/widget for more configuration options.
+    var HW_config = {
+      selector: "#whats-new", // CSS selector where to inject the badge
+      account:  "7kwzK7",
+      enabled: true,
+    }
 
+  </script>
+  <script async src="https://cdn.headwayapp.co/widget.js"></script>
 </body>
 
 </html>

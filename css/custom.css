@@ -234,3 +234,26 @@ ul.share-buttons .sr-only {
   width: 100%;
   display: block;
 }
+
+#header-menu{
+  min-width: 200px;
+}
+
+#header-menu .nav-link {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+#whats-new {
+  position: relative;
+}
+
+#HW_badge_cont{
+  position: absolute !important;
+  width: 100% !important;
+  top: 0 !important;
+}
+
+#HW_badge{
+  margin-left: 85px;
+}
